@@ -1,6 +1,5 @@
 /**
-* var params = $.extend({},def,options);
-* 当准备用自定义函数覆盖目标参数对象的函数时时，要注意名称一样的方法、参数保持一致否则会报错
+* 自定义window对象，类似layer的调用方式
 */
 ;(function($,window,document,undefined){
   var extendLayer = {
