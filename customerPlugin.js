@@ -10,7 +10,7 @@
         this.element = ele,
             this.$element = $(ele),
             this.defaults = {
-                url:SUB_SYS_PREFIX+'/brand/all',
+                url:'/brand/all',
                 brandSelectUl:'#'+BRAND_SELECT_UL + new Date().getTime(),
                 extendPackBtn:'#'+EXTEND_PACK_BTN + new Date().getTime(),
                 allCheckBtn:'#'+ALL_CHECK_BTN + new Date().getTime(),
